@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "433905945744",
+    "firebase_url": "https://firendlychat-c4f42.firebaseio.com",
+    "project_id": "firendlychat-c4f42",
+    "storage_bucket": "firendlychat-c4f42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433905945744:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433905945744-5jtkhgs200ln67rj1r3sh3oajrs2qhr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "22e2aada1a27665c576c1205800e28bbdb48c1da"
+          }
+        },
+        {
+          "client_id": "433905945744-e79kn93e02sbsbq6m0gcv8tbcr50gkan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "87bc0464f2a271607f4bbb4c038e400f97682442"
+          }
+        },
+        {
+          "client_id": "433905945744-12k099ka0sn4v2hsoaop3lmhn2lr2v5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7Y6-eNqXA5G2Db_mOXpAa098j01F-fU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433905945744-12k099ka0sn4v2hsoaop3lmhn2lr2v5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433905945744:android:2fcda472db62f88e",
+        "android_client_info": {
+          "package_name": "com.example.oneuser.caller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433905945744-k56vgorlbce1ri7nr3u75b5n7p5a4e30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oneuser.caller",
+            "certificate_hash": "22e2aada1a27665c576c1205800e28bbdb48c1da"
+          }
+        },
+        {
+          "client_id": "433905945744-12k099ka0sn4v2hsoaop3lmhn2lr2v5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7Y6-eNqXA5G2Db_mOXpAa098j01F-fU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433905945744-12k099ka0sn4v2hsoaop3lmhn2lr2v5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

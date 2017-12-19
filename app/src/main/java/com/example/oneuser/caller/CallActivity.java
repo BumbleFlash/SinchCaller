@@ -2,12 +2,9 @@ package com.example.oneuser.caller;
 
 import android.content.Intent;
 import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
-import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -24,7 +21,7 @@ import com.sinch.android.rtc.calling.CallListener;
 
 import java.util.List;
 
-public class CallActivity extends AppCompatActivity {
+public class CallActivity extends BaseActivity {
     private Call call;
     private TextView callState;
     private SinchClient sinchClient;

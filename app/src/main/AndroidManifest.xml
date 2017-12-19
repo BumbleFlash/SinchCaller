@@ -6,6 +6,7 @@
         android:name="android.hardware.microphone"
         android:required="false" />
 
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
@@ -19,6 +20,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service android:name=".SinchService"></service>
+
+        <service
+            android:name=".FcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,10 +37,6 @@
         </activity>
         <activity android:name=".CallActivity" />
 
-        <service
-            android:name=".ForegroundService"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>
