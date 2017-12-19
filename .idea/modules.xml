@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SinchCaller.iml" filepath="$PROJECT_DIR$/SinchCaller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SinchCaller.iml" filepath="$PROJECT_DIR$/.idea/SinchCaller.iml" />
+      <module fileurl="file://C:\Users\Sudarshan\Documents\Sudapps\Android Projecta\SinchCaller\SinchCaller.iml" filepath="C:\Users\Sudarshan\Documents\Sudapps\Android Projecta\SinchCaller\SinchCaller.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Sudarshan\Documents\Sudapps\Android Projecta\SinchCaller\app\app.iml" filepath="C:\Users\Sudarshan\Documents\Sudapps\Android Projecta\SinchCaller\app\app.iml" />
     </modules>
   </component>
 </project>

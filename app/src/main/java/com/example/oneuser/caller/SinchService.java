@@ -26,9 +26,9 @@ import java.util.Map;
 
 public class SinchService extends Service {
 
-    private static final String APP_KEY = "enter-application-key";
-    private static final String APP_SECRET = "enter-application-secret";
-    private static final String ENVIRONMENT = "sandbox.sinch.com";
+    private static final String APP_KEY = "32948f49-92b4-4b3f-9cbc-666f01cf1d0d";
+    private static final String APP_SECRET = "ng74/3ajWUagSpGfShyk4Q==";
+    private static final String ENVIRONMENT = "clientapi.sinch.com";
 
     public static final String CALL_ID = "CALL_ID";
     static final String TAG = SinchService.class.getSimpleName();
@@ -203,6 +203,7 @@ public class SinchService extends Service {
             Log.d(TAG, "onIncomingCall: " + call.getCallId());
             Intent intent = new Intent(SinchService.this, CallActivity.class);
             intent.putExtra(CALL_ID, call.getCallId());
+            intent.putExtra("Type", "incoming");
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             SinchService.this.startActivity(intent);
         }
